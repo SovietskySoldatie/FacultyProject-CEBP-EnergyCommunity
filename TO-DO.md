@@ -7,9 +7,9 @@
     - [x] Review package structure
     - [ ] Improve package structure (if needed)
     - [x] Decide on adminApp existence (Unified `USER` and `ADMIN` roles inside `mobileApp`)
-    - [ ] Create interfaces & base contracts
-        - [ ] Member 1: Core Energy Service & Database contracts
-        - [ ] Member 2: Message Broker & Telemetry contracts
+    - [x] Create interfaces & base contracts
+        - [x] Member 1: Core Energy Service & Database contracts
+        - [x] Member 2: Message Broker & Telemetry contracts
         - [x] Member 3: MCP Server, MCP Tools, Agent & Proposal contracts
         - [x] Member 4: Mobile Client domain models, repositories & geolocation contracts
     - [x] Document architecture

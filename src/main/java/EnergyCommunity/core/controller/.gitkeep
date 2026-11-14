@@ -1,4 +1,4 @@
-EnergyCommunity.core.api
+EnergyCommunity.core.controller
 
 Scope & Responsibilities:
 - Defines the public API contracts and service interfaces exposed by the backend core.
