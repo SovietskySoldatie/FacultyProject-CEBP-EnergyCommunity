@@ -1,9 +1,0 @@
-EnergyCommunity.user.mobileApp.gui
-
-Scope & Responsibilities:
-- Provides the presentation layer and user interface for mobile client devices.
-- Renders user dashboards (consumption, production, storage levels), alert notifications, and interactive decision views for approving or rejecting suggested action plans.
-
-Component Boundaries & Visibility:
-- VISIBILITY: PRESENTATION LAYER.
-- Boundary Rule: Interacts solely with the mobile client layer (mobileApp), isolating UI rendering from network transport, device sensor handling, and backend state.

@@ -1,9 +1,0 @@
-EnergyCommunity.user.adminApp.gui
-
-Scope & Responsibilities:
-- Provides the presentation layer and user interface for community administrators.
-- Visualizes community-wide energy flow, asset allocation, policy settings, and system alert monitoring.
-
-Component Boundaries & Visibility:
-- VISIBILITY: PRESENTATION LAYER.
-- Boundary Rule: Interacts solely with the administrative client layer (adminApp), decoupling UI presentation logic from API transport and backend communication.
