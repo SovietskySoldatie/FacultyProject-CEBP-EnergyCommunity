@@ -4,6 +4,7 @@ import EnergyCommunity.messageBroker.event.BatteryTelemetryEvent;
 import EnergyCommunity.messageBroker.event.DynamicPriceEvent;
 import EnergyCommunity.messageBroker.event.EvProximityEvent;
 import EnergyCommunity.messageBroker.event.MeterReadingEvent;
+import EnergyCommunity.messageBroker.event.ProposalAcceptedEvent;
 import EnergyCommunity.messageBroker.event.SolarGenerationEvent;
 
 /**
@@ -47,4 +48,11 @@ public interface TelemetryEventConsumer {
      * @param event The EV proximity event
      */
     void onEvProximity(EvProximityEvent event);
+
+    /**
+     * Handles incoming proposal acceptance events to register approved battery schedules.
+     *
+     * @param event The proposal acceptance event
+     */
+    void onProposalAccepted(ProposalAcceptedEvent event);
 }
