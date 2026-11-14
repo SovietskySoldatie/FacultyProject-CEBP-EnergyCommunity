@@ -1,22 +1,26 @@
 ## TO-DOs:
-- [] Add specs & reqs & docs
+- [x] Add specs & reqs & docs
     - [x] Add placeholders
-    - [] Add proper docs
-- [] Define project architecture
+    - [x] Add proper docs (`original specs/specs.md`, `reqs/reqs.md`, `docs/mcp-agent-guide.md`)
+- [ ] Define project architecture
     - [x] Create package structure
-    - [] Review package structure
-    - [] Improve package structure (if needed)
-    - [] Decide on adminApp existence
-    - [] Create interfaces & base contracts
-    - [] Document architecture
-        - [] Add diagrams (Mermaid diagrams in [`reqs.md`](reqs/reqs.md))
-        - [] Keep architecture up-to-date
-- [] Implement code
-    - [] Initial ramp-up
-        - [] Define interfaces
-        - [] Implement base app logic
-    - [] Prepare demo
-        - [] Implement working prototype
+    - [x] Review package structure
+    - [ ] Improve package structure (if needed)
+    - [x] Decide on adminApp existence (Unified `USER` and `ADMIN` roles inside `mobileApp`)
+    - [ ] Create interfaces & base contracts
+        - [ ] Member 1: Core Energy Service & Database contracts
+        - [ ] Member 2: Message Broker & Telemetry contracts
+        - [x] Member 3: MCP Server, MCP Tools, Agent & Proposal contracts
+        - [x] Member 4: Mobile Client domain models, repositories & geolocation contracts
+    - [x] Document architecture
+        - [x] Add diagrams (Mermaid diagrams in [`reqs.md`](reqs/reqs.md))
+        - [ ] Keep architecture up-to-date as all members merge their interfaces
+- [ ] Implement code
+    - [ ] Initial ramp-up
+        - [ ] Define interfaces
+        - [ ] Implement base app logic
+    - [ ] Prepare demo
+        - [ ] Implement working prototype
     - TBA
-- [] Implement tests
+- [ ] Implement tests
     - TBA
